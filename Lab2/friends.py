@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 import statistics
 def mean_num_friends(x):
     return statistics.mean(x)
