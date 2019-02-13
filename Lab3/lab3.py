@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[30]:
-
-
 import sklearn
 from sklearn.metrics import accuracy_score
    
