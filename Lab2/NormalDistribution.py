@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[2]:
-
-
 import math
 def normal_pdf(x, mu=0, sigma=1):
     normal_pdf = (1/math.sqrt(2*3.14*sigma**2))*math.exp(-(x - mu)**2/2*sigma**2)
