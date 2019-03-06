@@ -156,7 +156,7 @@ for count,id in rest:
         else:
             y_pred_new.append(5)
         
-#         print(y_pred_new)
+
     predicted = mean(y_pred_new)
     actual = mean(stars_db)
     if abs(predicted - actual) < 0.7:
