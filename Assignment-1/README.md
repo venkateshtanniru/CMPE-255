@@ -14,6 +14,15 @@ pip install tabulate
 # Pre-Processing
 
 * Remove punctuations from all the reviews
-* Change all the charecters in reviews to lower case letters
-* Break the scentences into tokens 
-* Rmove the neutral words without polarity such as "is, the, a, an" etc
+* Change all the characters in reviews to lower case letters
+* Break the sentences into tokens 
+* Remove the neutral words without polarity such as "is, the, a, an" etc
+
+After the preprocessing, the tokens are then compared with a set of positive and negative words to assign scores. If token is present in Positive words a score of '1' is assigned, for negative a score of '-1' is assigned and if token is not present in both sets, then a score of '0' is assigned. Based on these token scores, the mean score for each review is calculated. The value of mean score helps us to label each review as "Positive", "Negative" or "Neutral"
+
+# Building the Model
+
+To build the Logistic Regression model, we use:
+1. Countvectorizer
+2. Tfidftransformer
+3. Logistic Regression Algorithm
