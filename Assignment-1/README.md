@@ -13,4 +13,7 @@ pip install tabulate
 
 # Pre-Processing
 
-* we remove punctuations from all the reviews
+* Remove punctuations from all the reviews
+* Change all the charecters in reviews to lower case letters
+* Break the scentences into tokens 
+* Rmove the neutral words without polarity such as "is, the, a, an" etc
