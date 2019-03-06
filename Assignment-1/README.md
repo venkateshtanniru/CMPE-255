@@ -51,3 +51,12 @@ To build the Logistic Regression model, we use:
 |     3.12847 |  3.61806 | 2weQS-RnoOBhb1KsHKyoSQ | correct  |
 
 ```
+The accuracy for predicting the positive reviews is 71%. The accuray for predicting the negetive reviews is about 75%. The accuracy for predicting the neutral reviews is about 56%
+
+```
+ precision    recall  f1-score   support
+
+          -1       0.71      0.71      0.71      3615
+           0       0.56      0.55      0.56      3835
+           1       0.74      0.76      0.75      3800
+```
