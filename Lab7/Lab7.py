@@ -12,7 +12,7 @@ def linear_svm():
     # info: https://archive.ics.uci.edu/ml/datasets/banknote+authentication
 
     # load data
-    bankdata = pd.read_csv(r"C:\Users\jayap\Desktop\CMPE255\bill_authentication.csv")  
+    bankdata = pd.read_csv(r"C:\Users\Venka\Downloads\CMPE255-spring19\Lab7")  
 
     # see the data
     bankdata.shape  
